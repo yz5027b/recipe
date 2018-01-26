@@ -1,0 +1,98 @@
+/* ------------------------------------------------------------ */
+/* imports and utilities */
+
+/* 3rd-party CSS files */
+@import 'vendor/h5bp-head.css';
+@import 'vendor/normalize.css';
+@import 'vendor/h5bp-tail.css';
+
+/* use a more intuitive box sizing model (http://is.gd/wNVjAo) */
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+/* Scale down images and embedded videos so they don't overflow their parents */
+img, object { max-width: 100%; }
+
+/*	Development/layout aid. Remove the comments
+	on this rule in order to draw boxes around DIVs
+	and other elements used for layout. */
+/* 
+div, main, article, section, aside, hgroup, header, footer, address, nav {
+	border: 1px solid rgba(255,0,0,0.15) !important;
+	background: rgba(255,0,0,0.05) !important;		
+}
+*/
+
+
+/* ------------------------------------------------------------ */
+/* start project-specifc styles below this line */
+
+body {
+	font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	line-height: 1.5em;
+	color: #222;
+}
+
+/*	Generally, you will only want one container element in
+	the document, wrapping around the main content area. 
+	If you have more than one container, you are probably doing
+	something wrong. 	
+*/
+.container {
+	margin-top: 1em;
+	margin-right: auto;
+	margin-bottom: 1em;
+	margin-left: auto;
+	width: 90%;
+	max-width: 1200px;
+	padding: 2em;
+	border: 5px solid #eee;
+}
+
+h1 {
+	font-family: 'Risque', cursive;
+    font-size: 40px;
+    line-height: 120px;
+    margin-top: 1em;
+	margin-bottom: 1em;
+	margin-left:0;
+	margin-right:0;
+	padding:0.1em;
+	background: #E8AA82;
+	border: 0.1px solid #f00;
+}
+
+.important {font-family: 'Roboto', normal;
+font-size: 15px;
+    margin-top: 0.2em;
+	margin-bottom: 1em;
+	margin-left:0;
+	margin-right:0;
+	padding:1em;
+	padding-left: 2em;
+	background: #FFFA58;
+}
+
+li {font-family: 'Roboto', normal;
+font-size: 15px;
+	margin-left:0em;
+	margin-right:0;
+	background: #8DD1E8;
+	padding-left: 3em;
+	padding-top: 0.5em;
+padding-bottom: 0.2em;
+}
+
+h2{font-family: 'Risque', cursive;
+    font-size: 30px;
+background-color: #B3E88D;
+ padding-left: 1em;
+	padding-top: 0.5em;
+padding-bottom: 0.5em;}
+
+   h3 {font-family: 'Risque', cursive;
+    font-size: 30px;background-color: #B3E88D;
+ padding-left: 1em;
+	padding-top: 0.5em;
+padding-bottom: 0.5em;}
+
