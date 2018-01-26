@@ -58,41 +58,52 @@ h1 {
 	margin-left:0;
 	margin-right:0;
 	padding:0.1em;
-	background: #E8AA82;
-	border: 0.1px solid #f00;
+	padding-left:0.4em;
+	background: #E5FCF1;
+	border: 0.1px solid #E5DFF1;
 }
 
-.important {font-family: 'Roboto', normal;
+p {font-family: 'Roboto', normal;
 font-size: 15px;
-    margin-top: 0.2em;
-	margin-bottom: 1em;
+    margin-top: 0em;
+	margin-bottom: 0em;
 	margin-left:0;
 	margin-right:0;
-	padding:1em;
+	padding:01em;
 	padding-left: 2em;
-	background: #FFFA58;
+	background: #EDFFEB;
 }
 
 li {font-family: 'Roboto', normal;
 font-size: 15px;
 	margin-left:0em;
 	margin-right:0;
-	background: #8DD1E8;
+	background: #FFFFD9;
 	padding-left: 3em;
-	padding-top: 0.5em;
+	padding-top: 0.2em;
 padding-bottom: 0.2em;
 }
 
+ul{padding-top:1em;
+padding-bottom:1em;
+margin-top:2em;
+margin-bottom:2em;
+background: #FFFFD9;}
+
 h2{font-family: 'Risque', cursive;
     font-size: 30px;
-background-color: #B3E88D;
+background-color: #EFF5FF;
  padding-left: 1em;
 	padding-top: 0.5em;
 padding-bottom: 0.5em;}
 
    h3 {font-family: 'Risque', cursive;
-    font-size: 30px;background-color: #B3E88D;
+    font-size: 30px;background-color: #EFF5FF;
  padding-left: 1em;
 	padding-top: 0.5em;
 padding-bottom: 0.5em;}
 
+body{background:#FFFFEE;
+margin-top: 3em;}
+
+.writing{background:#EDFFEB;}
